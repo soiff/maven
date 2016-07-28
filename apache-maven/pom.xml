@@ -109,6 +109,9 @@ under the License.
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-remote-resources-plugin</artifactId>
           <version>1.5</version>
+          <configuration>
+            <runOnlyAtExecutionRoot>true</runOnlyAtExecutionRoot>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.rat</groupId>
